@@ -6,15 +6,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["'Times New Roman'", "Times", "serif"], // Set Times New Roman as default sans
-        timesnewroman: ["'Times New Roman'", "Times", "serif"]
+        timesnewroman: ["'Times New Roman'", "Times", "serif"],
+        sans: ["'Times New Roman'", "Times", "serif"], // Optionally, set as default
       },
       colors: {
         black: "#000000",
         white: "#FFFFFF",
         accent: "#cdcbd2"
-      }
-    }
+      },
+    },
   },
-  plugins: []
+  plugins: [],
 };
